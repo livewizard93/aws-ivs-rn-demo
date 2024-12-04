@@ -18,6 +18,8 @@
 		D7E91BEF2D007B300014E3DE /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E91BEE2D007B300014E3DE /* MyCustomView.m */; };
 		D7E91BF52D007BB40014E3DE /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E91BF42D007BB40014E3DE /* MyCustomView.swift */; };
 		D7E91BF72D007BE80014E3DE /* MyCustomViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E91BF62D007BE80014E3DE /* MyCustomViewManager.swift */; };
+		D7E91BFB2D007F930014E3DE /* AmazonIVSBroadcast.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E91BF82D007F930014E3DE /* AmazonIVSBroadcast.xcframework */; };
+		D7E91BFC2D007F930014E3DE /* AmazonIVSChatMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E91BF92D007F930014E3DE /* AmazonIVSChatMessaging.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		D7E91BF32D007BB40014E3DE /* aws_ivs_demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aws_ivs_demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		D7E91BF42D007BB40014E3DE /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 		D7E91BF62D007BE80014E3DE /* MyCustomViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomViewManager.swift; sourceTree = "<group>"; };
+		D7E91BF82D007F930014E3DE /* AmazonIVSBroadcast.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AmazonIVSBroadcast.xcframework; sourceTree = "<group>"; };
+		D7E91BF92D007F930014E3DE /* AmazonIVSChatMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AmazonIVSChatMessaging.xcframework; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -69,6 +73,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-aws_ivs_demo.a in Frameworks */,
+				D7E91BFB2D007F930014E3DE /* AmazonIVSBroadcast.xcframework in Frameworks */,
+				D7E91BFC2D007F930014E3DE /* AmazonIVSChatMessaging.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +101,7 @@
 		13B07FAE1A68108700A75B9A /* aws_ivs_demo */ = {
 			isa = PBXGroup;
 			children = (
+				D7E91BFA2D007F930014E3DE /* frameworks */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -160,6 +167,15 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-aws_ivs_demo-aws_ivs_demoTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7E91BFA2D007F930014E3DE /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E91BF82D007F930014E3DE /* AmazonIVSBroadcast.xcframework */,
+				D7E91BF92D007F930014E3DE /* AmazonIVSChatMessaging.xcframework */,
+			);
+			path = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
